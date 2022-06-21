@@ -11,6 +11,8 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema Cul_D'ampolla
 -- -----------------------------------------------------
+CREATE DATABASE Cul_ampolla CHARACTER SET utf8mb4;
+USE Cul_ampolla;
 CREATE SCHEMA IF NOT EXISTS `Cul_D'ampolla` DEFAULT CHARACTER SET utf8 ;
 USE `Cul_D'ampolla` ;
 
@@ -42,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `Cul_D'ampolla`.`Ulleres` (
   `Preu` FLOAT NOT NULL,
   `Id_proveïdor` INT NOT NULL,
   PRIMARY KEY (`id_Ulleres`),
-  INDEX `FK_Ulleres_IdProvaïdor_idx` (`Id_proveïdor` ASC) VISIBLE,
+  INDEX `FK_Ulleres_IdProvaïdor_idx` (`Id_proveïdor`) ,
   CONSTRAINT `FK_Ulleres_IdProvaïdor`
     FOREIGN KEY (`Id_proveïdor`)
     REFERENCES `Cul_D'ampolla`.`Proveïdors` (`Id_Proveïdor`)
@@ -65,7 +67,7 @@ CREATE TABLE IF NOT EXISTS `Cul_D'ampolla`.`Client` (
   `Recomanacío` VARCHAR(45) NULL,
   `Venedor` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_Client`),
-  INDEX `FK_Client_Ulleres_idx` (`Ulleres` ASC) VISIBLE,
+  INDEX `FK_Client_Ulleres_idx` (`Ulleres`),
   CONSTRAINT `FK_Client_Ulleres`
     FOREIGN KEY (`Ulleres`)
     REFERENCES `Cul_D'ampolla`.`Ulleres` (`id_Ulleres`)
