@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "62c182edf9575459b4c606e6"
+  },
+  "nom": "gafaworld",
+  "adreça": "calle 3",
+  "telefon": 123456789,
+  "fax": 4536745,
+  "nif": "123456778T",
+  "marca": [
+    "Ray ban",
+    "bcnbrand"
+  ]
+},{
+  "_id": {
+    "$oid": "62c183edf9575459b4c606e8"
+  },
+  "nom": "lente",
+  "adreça": "calle 56",
+  "telefon": 235423289,
+  "fax": 7776745,
+  "nif": "611456778J",
+  "marca": [
+    "nike"
+  ]
+}]

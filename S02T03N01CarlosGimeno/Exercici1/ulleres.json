@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "62c18c28f9575459b4c606ec"
+  },
+  "marca": "Ray Ban",
+  "graduacio": "2,3",
+  "montura": "pasta",
+  "color montura": "verd",
+  "color vidre": "vermell",
+  "preu": 132.34,
+  "ptoveidor": "gafaworld"
+},{
+  "_id": {
+    "$oid": "62c18c28f9575459b4c606ed"
+  },
+  "marca": "bcnbrand",
+  "graduacio": "5,3",
+  "montura": "pasta",
+  "color montura": "verd",
+  "color vidre": "vermell",
+  "preu": 172.34,
+  "ptoveidor": "gafaworld"
+},{
+  "_id": {
+    "$oid": "62c18c28f9575459b4c606ee"
+  },
+  "marca": "nike",
+  "graduacio": "5,3",
+  "montura": "pasta",
+  "color montura": "blau",
+  "color vidre": "vermell",
+  "preu": 112.34,
+  "ptoveidor": "lente"
+}]
