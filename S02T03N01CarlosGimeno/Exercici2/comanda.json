@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "62c31a05f9575459b4c60712"
+  },
+  "data/hora": {
+    "$date": {
+      "$numberLong": "2"
+    }
+  },
+  "domicili/botiga": [
+    {
+      "tipo": "domicili",
+      "adreça": "carrer34"
+    }
+  ],
+  "tipo_producte": [
+    {
+      "tipo": "hamburguesa",
+      "cuantitat": "3"
+    },
+    {
+      "tipo": "beguda",
+      "cuantitat": "2"
+    }
+  ],
+  "preu_total": 29,
+  "client": {
+    "$oid": "62c31751f9575459b4c6070c"
+  }
+},{
+  "_id": {
+    "$oid": "62c31a05f9575459b4c60713"
+  },
+  "data/hora": {
+    "$date": {
+      "$numberLong": "2"
+    }
+  },
+  "domicili/botiga": "domicili",
+  "tipo_producte": [
+    {
+      "tipo": "pizza",
+      "categoria": "vegana",
+      "cuantitat": "3"
+    },
+    {
+      "nom": "beguda",
+      "cuantitat": "2"
+    }
+  ],
+  "preu_total": 56,
+  "repartidor": "Sara Perst",
+  "client": {
+    "$oid": "62c31751f9575459b4c6070d"
+  }
+}]

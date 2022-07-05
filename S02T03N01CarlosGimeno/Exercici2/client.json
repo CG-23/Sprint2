@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "62c31751f9575459b4c6070c"
+  },
+  "nom": "Carlos",
+  "cognom": "Gimeno",
+  "adreça": "Carrer 1",
+  "codi_postal": 23,
+  "provincia": "Barcelona",
+  "localitat": "Barcelona",
+  "telefon": {
+    "$numberLong": "3245645678"
+  }
+},{
+  "_id": {
+    "$oid": "62c31751f9575459b4c6070d"
+  },
+  "nom": "Pedro",
+  "cognom": "parra",
+  "adreça": "Carrer 54",
+  "codi_postal": 23,
+  "provincia": "Barcelona",
+  "localitat": "Hospitalet",
+  "telefon": 324578678
+},{
+  "_id": {
+    "$oid": "62c31751f9575459b4c6070e"
+  },
+  "nom": "Aina",
+  "cognom": "Ver",
+  "adreça": "Carrer 12",
+  "codi_postal": 53,
+  "provincia": "Barcelona",
+  "localitat": "Barcelona",
+  "telefon": {
+    "$numberLong": "3852645678"
+  }
+}]

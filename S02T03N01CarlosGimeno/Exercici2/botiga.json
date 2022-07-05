@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "62c31d14f9575459b4c60720"
+  },
+  "adreça": "carrer56",
+  "cod_postal": 29,
+  "Provincia": "Barcelona",
+  "Localitat": "Barcelona",
+  "empleat": [
+    {
+      "nom": "Pedro",
+      "cognom": "Garcia",
+      "nif": "2345679876S",
+      "telefon": 234567654,
+      "tipo": "repartidor"
+    },
+    {
+      "nom": "Joan",
+      "cognom": "Fernandez",
+      "nif": "34567899R",
+      "telefon": 234567890,
+      "tipo": "cuiner"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62c31d14f9575459b4c60721"
+  },
+  "adreça": "carrer986",
+  "cod_postal": 79,
+  "Provincia": "Barcelona",
+  "Localitat": "Barcelona",
+  "empleat": [
+    {
+      "nom": "Sara",
+      "cognom": "Perst",
+      "nif": "234567890Q",
+      "telefon": 12345678,
+      "tipo": "repartidor"
+    }
+  ]
+}]

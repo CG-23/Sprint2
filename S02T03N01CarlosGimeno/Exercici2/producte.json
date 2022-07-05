@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "62c31af6f9575459b4c60717"
+  },
+  "nom": "cheesBurguer",
+  "descripcio": "impresionant",
+  "imatge": "C:\\Users\\imagen1",
+  "preu": 12
+},{
+  "_id": {
+    "$oid": "62c31af6f9575459b4c60718"
+  },
+  "nom": "fishBurguer",
+  "descripcio": "saludable",
+  "imatge": "C:\\Users\\imagen1",
+  "preu": 11
+},{
+  "_id": {
+    "$oid": "62c31af6f9575459b4c60719"
+  },
+  "nom": "romana",
+  "descripcio": "sensacions",
+  "imatge": "C:\\Users\\imagen1",
+  "preu": 15
+},{
+  "_id": {
+    "$oid": "62c31af6f9575459b4c6071a"
+  },
+  "nom": "aigua",
+  "descripcio": "sostenible",
+  "imatge": "3C:\\Users\\imagen1",
+  "preu": 2
+}]
