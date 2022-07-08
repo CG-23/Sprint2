@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "62c18c28f9575459b4c606ec"
+  },
+  "marca": "Ray Ban",
+  "graduacio": "2,3",
+  "montura": "pasta",
+  "color montura": "verd",
+  "color vidre": "vermell",
+  "preu": 132.34,
+  "proveidor": {
+    "$oid": "62c182edf9575459b4c606e6"
+  }
+},{
+  "_id": {
+    "$oid": "62c18c28f9575459b4c606ed"
+  },
+  "marca": "bcnbrand",
+  "graduacio": "5,3",
+  "montura": "pasta",
+  "color montura": "verd",
+  "color vidre": "vermell",
+  "preu": 172.34,
+  "proveidor": {
+    "$oid": "62c182edf9575459b4c606e6"
+  }
+},{
+  "_id": {
+    "$oid": "62c18c28f9575459b4c606ee"
+  },
+  "marca": "nike",
+  "graduacio": "5,3",
+  "montura": "pasta",
+  "color montura": "blau",
+  "color vidre": "vermell",
+  "preu": 112.34,
+  "proveidor": {
+    "$oid": "62c183edf9575459b4c606e8"
+  }
+}]
